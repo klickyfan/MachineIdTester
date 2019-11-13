@@ -19,7 +19,7 @@ namespace MachineIdTester
 
             // A UUID is a unique identifier generated and supplied by the motherboard vendor.
             //
-            // Example: 96129BFB-1914-483A-2C03-F3696756F3DF
+            // Example: 96149BFB-1914-483A-2C03-F3669756E3DF
             //
             // Ways to obtain manually:
             // from console: wmic csproduct get UUID
@@ -44,7 +44,7 @@ namespace MachineIdTester
 
             ////********** Registry MachineGuid ********** ////
 
-            // Example: D8BF5739-9C2C-4CCC-A688-C999D609DD6B
+            // Example: D8BF5749-9C2C-4CBC-A688-C999D619DD6B
             //
             // Way to obtain manually:
             // via Registry Editor: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
@@ -58,7 +58,7 @@ namespace MachineIdTester
             // from the product key used to activate Windows (during installation) and the hardware
             // configuration of the machine.
             //
-            // Example: 00330-62994-57108-AAOEM
+            // Example: 00330-62994-59108-BBOEM
             //
             // Ways to obtain manually:
             // via Control Panel: Control Panel -> System and Security -> System
@@ -90,7 +90,7 @@ namespace MachineIdTester
 
             ////********** Processor ID ********** ////
 
-            // Example: BFEBFBFF000806EA
+            // Example: BFEBFBFF000712EA
             //
             // Way to obtain manually:
             // from command line: wmic cpu get ProcessorId
